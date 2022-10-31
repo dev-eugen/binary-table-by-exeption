@@ -1,3 +1,4 @@
+// Тут потрібно вказати вашу множину
 const x = [-7, -6.2, -5, -4.3, -0.25, 0.1, 5.5, 10];
 
 const fun = (x, y, logs = false) => {
@@ -11,8 +12,6 @@ const fun = (x, y, logs = false) => {
     return 0;
   }
 };
-
-console.log(fun(-5, -0.25, true));
 
 let res = [['y ↓ | x →', ...x]];
 for (let i = 1; i <= x.length; i++) {
